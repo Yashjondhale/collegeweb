@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    font-family:arial;
+    border:border-box;
+    
+}
+body{
+    background-image: url(hero.jpg);
+    background-size: cover;
+   
+}
+.navbar{
+    background-color:#252839;
+    display: flex;
+    
+    
+}
+.logo{
+   margin: 10px;
+   background-image:url(logo.png);
+   background-size: cover;
+   height: 100px;
+   width: 90px;
+   border-radius: 5px;
+   
+
+}
+.logo:hover{
+    height: 110px;
+    width:100px;
+    
+}
+.pannel{
+    height: 40px;
+    display: flex;
+    background-color:rgb(138, 132, 132,0.3) ;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    
+    text-transform:uppercase;
+    
+    
+}
+.name:hover{
+    
+    color:rgba(249, 240, 240, 0.5);
+    
+    
+}
+.contact{
+    border: 1px solid transparent;
+}
+.contact:hover{
+    
+    background-color: gray;
+    display: flex;
+    border-radius: 5px;
+    width: 80px;
+}
+.gmail{
+    display: flex;
+    align-items: first baseline;
+    width: 50px;
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+
+}
+
+
+.gmail a{
+     padding-left: 10px;
+     padding-right: 10px;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     width: 50px;
+}
+.home{
+    border: 1px solid transparent;
+    
+}
+
+.home :hover{
+    background-color:gray;
+    display: flex;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.home1{
+    display: flex;
+    align-items: first baseline;
+    width: 50px;
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+}
+.home1 a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 50px;
+}
+
+.fees{
+    
+    display: flex;
+    align-items: first baseline;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+}
+.fees a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    align-items: center;
+}
+.fees:hover{
+    background-color:gray;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.img{
+    background-color:rgb(80, 76, 76);
+    display: flex;
+    padding-bottom: 50px;
+   
+}
+.slider{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-size: cover;
+    height: 600px;
+    width: 1365px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    background-image: url(s2.png);
+    box-shadow: 3px 5px 20px 5px white;
+    animation: changeImage 50s steps(1) infinite;
+}
+@keyframes changeImage{
+    0%{
+        background-image: url(s2.png);
+    }
+    20%{background-image: url(s1.png);
+        
+    }
+    40%{
+        background-image: url(s3.png);
+    }
+    60%{
+        background-image: url(s4.png);
+    }
+    80%{
+        background-image: url(s6.png);
+    }
+    100%{
+        background-image:url(s7.png)
+
+    }
+
+}
+.slider:hover{
+    border: 2px solid rgb(38, 38, 35);
+}
+.sec{
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+.eng{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.eng a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.eng:hover{
+    background-color: red;
+}
+.poly{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.poly a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.poly:hover{
+    background-color: red;
+}
+.sch{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+}
+.sch a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.sch:hover {
+    background-color: rgb(245, 0, 0);
+    
+}
+.in{
+    display: flex;
+    background-color: rgb(189, 221, 222);
+}
